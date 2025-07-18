@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Font Face Declarations */
+@font-face {
+  font-family: "RadyPro";
+  src: url("/fonts/Abd ElRady Pro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+200C-200D, U+2010-2011, U+204F, U+2E41,
+    U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@font-face {
+  font-family: "RadyPro-Regular";
+  src: url("/fonts/Abd ElRady Pro Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+200C-200D, U+2010-2011, U+204F, U+2E41,
+    U+FB50-FDFF, U+FE80-FEFC;
+}
+
+/* Custom Colors */
+@theme {
+  --color-black: #000000;
+  --color-teal-primary: #0e9985;
+  --color-teal-dark: #066e69;
+  --color-blue-primary: #007eff;
+  --color-dark-blue: #02060b;
+  --color-yellow-warning: #ffc107;
+
+  --font-rady-pro: "RadyPro", sans-serif;
+  --font-rady-pro-regular: "RadyPro-Regular", sans-serif;
+}
+
+@layer base {
+  /* Arabic text styling */
+  html {
+    direction: rtl;
+  }
+
+  body {
+    font-family: "RadyPro", "RadyPro-Regular", Arial, sans-serif;
+    text-align: right;
+  }
+
+  /* Arabic font rendering improvements */
+  * {
+    font-feature-settings: "liga" 1, "kern" 1;
+    text-rendering: optimizeLegibility;
+  }
+}
