@@ -1,272 +1,272 @@
-# 📚 منصة الأستاذ احمد عصام - Ahmed Esam E-Learning Platform
+# 📚 Ahmed Esam E-Learning Platform
 
-> منصة تعليمية متخصصة في تدريس مادة الرياضيات لطلاب الثانوية العامة بأحدث الطرق التفاعلية والتقنيات الحديثة
+> A specialized educational platform for teaching mathematics to high school students using the latest interactive methods and modern technologies
 
 [![React](https://img.shields.io/badge/React-19.1.0-blue.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.0.4-green.svg)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.11-teal.svg)](https://tailwindcss.com/)
 [![React Router](https://img.shields.io/badge/React_Router-7.7.0-red.svg)](https://reactrouter.com/)
 
-## 🌟 نظرة عامة
+## 🌟 Overview
 
-منصة تعليمية حديثة مصممة خصيصاً للطلاب العرب في المرحلة الثانوية، تركز على تعليم الرياضيات بأساليب تفاعلية ومبتكرة. المنصة تدعم اللغة العربية بالكامل مع تصميم RTL احترافي وخطوط عربية مخصصة.
+A modern educational platform specifically designed for Arabic high school students, focusing on mathematics education through interactive and innovative methods. The platform provides full Arabic language support with professional RTL design and custom Arabic fonts.
 
-## ✨ المميزات الرئيسية
+## ✨ Key Features
 
-### 🎯 **التعليم المتخصص**
-- منصة مخصصة لتدريس الرياضيات للثانوية العامة
-- محتوى تعليمي شامل لجميع المراحل الثانوية
-- أساليب تدريس حديثة وتفاعلية
+### 🎯 **Specialized Education**
+- Platform dedicated to teaching mathematics for high school students
+- Comprehensive educational content for all high school grades
+- Modern and interactive teaching methods
 
-### 📱 **تجربة مستخدم متميزة**
-- تصميم عصري ومتجاوب لجميع الأجهزة
-- دعم كامل للغة العربية مع اتجاه RTL
-- خطوط عربية احترافية (RadyPro Font Family)
-- انيميشن وتأثيرات بصرية جذابة
+### 📱 **Outstanding User Experience**
+- Modern and responsive design for all devices
+- Full Arabic language support with RTL direction
+- Professional Arabic fonts (RadyPro Font Family)
+- Attractive animations and visual effects
 
-### 🔐 **نظام مصادقة متكامل**
-- صفحات تسجيل دخول وإنشاء حساب
-- تحقق من صحة البيانات المدخلة
-- واجهات أمان محسنة
-- روابط لاستعادة كلمة المرور
+### 🔐 **Integrated Authentication System**
+- Login and registration pages
+- Real-time data validation
+- Enhanced security interfaces
+- Password recovery links
 
-### 🎨 **تصميم احترافي**
-- نظام ألوان متناسق (Teal & Blue Theme)
-- مكونات قابلة لإعادة الاستخدام
-- تصميم متجاوب لجميع أحجام الشاشات
-- أيقونات حديثة من React Icons
+### 🎨 **Professional Design**
+- Consistent color system (Teal & Blue Theme)
+- Reusable components
+- Responsive design for all screen sizes
+- Modern icons from React Icons
 
-## 🛠️ التقنيات المستخدمة
+## 🛠️ Tech Stack
 
-| التقنية | الإصدار | الاستخدام |
-|---------|---------|-----------|
-| **React** | 19.1.0 | مكتبة واجهة المستخدم الرئيسية |
-| **Vite** | 7.0.4 | أداة البناء والتطوير السريع |
-| **TailwindCSS** | 4.1.11 | إطار عمل CSS للتصميم |
-| **React Router DOM** | 7.7.0 | التنقل والتوجيه |
-| **React Icons** | 5.5.0 | مكتبة الأيقونات |
-| **ESLint** | 9.30.1 | فحص وتحسين جودة الكود |
+| Technology | Version | Usage |
+|-----------|---------|-------|
+| **React** | 19.1.0 | Main UI library |
+| **Vite** | 7.0.4 | Fast build and development tool |
+| **TailwindCSS** | 4.1.11 | CSS framework for styling |
+| **React Router DOM** | 7.7.0 | Navigation and routing |
+| **React Icons** | 5.5.0 | Icon library |
+| **ESLint** | 9.30.1 | Code quality checking and improvement |
 
-## 📁 هيكل المشروع
+## 📁 Project Structure
 
 ```
 d:\ahmedesam-elearning/
 ├── 📁 public/
-│   ├── 📁 fonts/                    # الخطوط العربية المخصصة
-│   │   ├── Abd ElRady Pro.otf       # خط RadyPro الأساسي
-│   │   ├── Abd ElRady Pro Regular.otf # خط RadyPro العادي
-│   │   └── readme.txt               # معلومات الخط
+│   ├── 📁 fonts/                    # Custom Arabic fonts
+│   │   ├── Abd ElRady Pro.otf       # RadyPro main font
+│   │   ├── Abd ElRady Pro Regular.otf # RadyPro regular font
+│   │   └── readme.txt               # Font information
 │   └── vite.svg
 │
 ├── 📁 src/
-│   ├── 📁 Components/               # المكونات القابلة لإعادة الاستخدام
-│   │   ├── CourseCard.jsx           # بطاقة الدورة التدريبية
-│   │   ├── Footer.jsx               # تذييل الصفحة
-│   │   └── Header.jsx               # رأس الصفحة
+│   ├── 📁 Components/               # Reusable components
+│   │   ├── CourseCard.jsx           # Course card component
+│   │   ├── Footer.jsx               # Page footer
+│   │   └── Header.jsx               # Page header
 │   │
-│   ├── 📁 Pages/                    # صفحات التطبيق
-│   │   ├── 📁 Auth/                 # صفحات المصادقة
-│   │   │   ├── Login.jsx            # صفحة تسجيل الدخول
-│   │   │   └── Register.jsx         # صفحة إنشاء حساب
+│   ├── 📁 Pages/                    # Application pages
+│   │   ├── 📁 Auth/                 # Authentication pages
+│   │   │   ├── Login.jsx            # Login page
+│   │   │   └── Register.jsx         # Registration page
 │   │   │
-│   │   └── 📁 Home/                 # صفحة الرئيسية
-│   │       ├── Home.jsx             # الصفحة الرئيسية
-│   │       ├── 📁 Hero/             # قسم البطل
-│   │       ├── 📁 Courses/          # قسم الدورات
-│   │       └── 📁 Features/         # قسم المميزات
+│   │   └── 📁 Home/                 # Home page
+│   │       ├── Home.jsx             # Main home page
+│   │       ├── 📁 Hero/             # Hero section
+│   │       ├── 📁 Courses/          # Courses section
+│   │       └── 📁 Features/         # Features section
 │   │
-│   ├── App.jsx                      # المكون الرئيسي
-│   ├── main.jsx                     # نقطة دخول التطبيق
-│   └── index.css                    # أنماط CSS الرئيسية
+│   ├── App.jsx                      # Main application component
+│   ├── main.jsx                     # Application entry point
+│   └── index.css                    # Main CSS styles
 │
-├── package.json                     # تكوين المشروع والتبعيات
-├── vite.config.js                   # تكوين Vite
-├── eslint.config.js                 # تكوين ESLint
-└── README.md                        # هذا الملف
+├── package.json                     # Project configuration and dependencies
+├── vite.config.js                   # Vite configuration
+├── eslint.config.js                 # ESLint configuration
+└── README.md                        # This file
 ```
 
-## 🚀 البدء السريع
+## 🚀 Quick Start
 
-### 📋 المتطلبات الأساسية
+### 📋 Prerequisites
 
-- **Node.js** (الإصدار 18 أو أحدث)
-- **npm** أو **yarn** لإدارة الحزم
+- **Node.js** (version 18 or newer)
+- **npm** or **yarn** for package management
 
-### ⚡ التثبيت والتشغيل
+### ⚡ Installation and Setup
 
-1. **استنساخ المشروع**
+1. **Clone the repository**
 ```bash
 git clone [repository-url]
 cd ahmedesam-elearning
 ```
 
-2. **تثبيت التبعيات**
+2. **Install dependencies**
 ```bash
 npm install
 ```
 
-3. **تشغيل بيئة التطوير**
+3. **Start development server**
 ```bash
 npm run dev
 ```
 
-4. **فتح المتصفح**
-افتح المتصفح وانتقل إلى: `http://localhost:5173`
+4. **Open browser**
+Open your browser and navigate to: `http://localhost:5173`
 
-### 🔧 أوامر أخرى مفيدة
+### 🔧 Other Useful Commands
 
 ```bash
-# بناء المشروع للإنتاج
+# Build for production
 npm run build
 
-# معاينة النسخة المبنية
+# Preview production build
 npm run preview
 
-# فحص جودة الكود
+# Check code quality
 npm run lint
 ```
 
-## 🎨 نظام التصميم
+## 🎨 Design System
 
-### 🎨 **الألوان الرئيسية**
+### 🎨 **Main Colors**
 
-| اللون | الكود السادس عشر | الاستخدام |
-|-------|-----------------|-----------|
-| Teal Primary | `#0e9985` | اللون الأساسي للمنصة |
-| Teal Dark | `#066e69` | تأثيرات التمرير والنقر |
-| Blue Primary | `#007eff` | العناصر الثانوية |
-| Dark Blue | `#02060b` | النصوص الرئيسية |
-| Yellow Warning | `#ffc107` | التحذيرات والإشعارات |
+| Color | Hex Code | Usage |
+|-------|----------|-------|
+| Teal Primary | `#0e9985` | Platform primary color |
+| Teal Dark | `#066e69` | Hover and click effects |
+| Blue Primary | `#007eff` | Secondary elements |
+| Dark Blue | `#02060b` | Main text |
+| Yellow Warning | `#ffc107` | Warnings and notifications |
 
-### 🔤 **الخطوط**
+### 🔤 **Typography**
 
-- **RadyPro**: الخط الأساسي للعناوين والنصوص المهمة
-- **RadyPro-Regular**: الخط العادي للنصوص الفرعية
-- دعم كامل للأحرف العربية مع تحسينات خاصة
+- **RadyPro**: Main font for headings and important text
+- **RadyPro-Regular**: Regular font for body text
+- Full Arabic character support with special optimizations
 
-### 📱 **التجاوب**
+### 📱 **Responsiveness**
 
-التطبيق مصمم ليعمل بشكل مثالي على:
-- 📱 الهواتف الذكية (320px+)
-- 📟 الأجهزة اللوحية (768px+)
-- 💻 أجهزة الكمبيوتر المحمولة (1024px+)
-- 🖥️ الشاشات الكبيرة (1280px+)
+The application is designed to work perfectly on:
+- 📱 Smartphones (320px+)
+- 📟 Tablets (768px+)
+- 💻 Laptops (1024px+)
+- 🖥️ Large screens (1280px+)
 
-## 🔗 التنقل والتوجيه
+## 🔗 Navigation and Routing
 
-| المسار | الصفحة | الوصف |
-|-------|--------|--------|
-| `/` | الرئيسية | الصفحة الرئيسية مع جميع الأقسام |
-| `/login` | تسجيل الدخول | صفحة تسجيل الدخول للطلاب |
-| `/register` | إنشاء حساب | صفحة التسجيل للطلاب الجدد |
+| Route | Page | Description |
+|-------|------|-------------|
+| `/` | Home | Main page with all sections |
+| `/login` | Login | Student login page |
+| `/register` | Register | New student registration page |
 
-## 🎯 الأقسام الرئيسية
+## 🎯 Main Sections
 
-### 🏠 **القسم الرئيسي (Hero)**
-- مقدمة عن الأستاذ احمد عصام
-- عرض تقديمي للمنصة والتخصص
-- زر دعوة للعمل (CTA) للتسجيل
+### 🏠 **Hero Section**
+- Introduction to Professor Ahmed Esam
+- Platform and specialization presentation
+- Call-to-action (CTA) button for registration
 
-### 📚 **قسم الدورات (Courses)**
-- عرض المراحل التعليمية الثلاث
-- معلومات مفصلة عن كل مرحلة
-- بطاقات تفاعلية للدورات
+### 📚 **Courses Section**
+- Display of three educational stages
+- Detailed information about each stage
+- Interactive course cards
 
-### ⭐ **قسم المميزات (Features)**
-- بنوك الأسئلة والاختبارات الإلكترونية
-- الشرح المتزامن وغير المتزامن
-- نظام المتابعة المستمرة
+### ⭐ **Features Section**
+- Question banks and electronic tests
+- Synchronous and asynchronous explanations
+- Continuous monitoring system
 
-### 📞 **تذييل الصفحة (Footer)**
-- معلومات الاتصال والتواصل
-- روابط سريعة للأقسام الرئيسية
-- وسائل التواصل الاجتماعي
-- إحصائيات المنصة
+### 📞 **Footer Section**
+- Contact and communication information
+- Quick links to main sections
+- Social media platforms
+- Platform statistics
 
-## 👤 نظام المصادقة
+## 👤 Authentication System
 
-### 🔑 **تسجيل الدخول**
-- التحقق من البريد الإلكتروني وكلمة المرور
-- خيار "تذكرني" لتسجيل دخول مستمر
-- رابط استعادة كلمة المرور
-- تسجيل دخول عبر وسائل التواصل الاجتماعي
+### 🔑 **Login**
+- Email and password verification
+- "Remember me" option for persistent login
+- Password recovery link
+- Social media login options
 
-### 📝 **إنشاء حساب جديد**
-- نموذج شامل لجمع بيانات الطالب
-- التحقق من صحة البيانات في الوقت الفعلي
-- اختيار المرحلة الدراسية
-- الموافقة على الشروط والأحكام
+### 📝 **Registration**
+- Comprehensive form for student data collection
+- Real-time data validation
+- Academic grade selection
+- Terms and conditions agreement
 
-## 🎨 المكونات القابلة لإعادة الاستخدام
+## 🎨 Reusable Components
 
 ### 🏷️ **CourseCard**
-- بطاقة تفاعلية لعرض معلومات الدورة
-- صورة مع تأثيرات التمرير
-- معلومات المستوى وعدد الكورسات
-- زر دعوة للعمل
+- Interactive card for displaying course information
+- Image with hover effects
+- Level information and course count
+- Call-to-action button
 
 ### 🎯 **FeaturesCard**
-- بطاقة لعرض مميزات المنصة
-- أيقونة تفاعلية
-- عنوان ووصف مفصل
-- تأثيرات الحركة عند التمرير
+- Card for displaying platform features
+- Interactive icon
+- Title and detailed description
+- Hover animations
 
-## 🔧 التكوين والإعدادات
+## 🔧 Configuration and Settings
 
 ### ⚙️ **Vite Configuration**
-- تكوين محسن لـ React
-- دعم TailwindCSS
-- تحسينات الأداء للتطوير والإنتاج
+- Optimized configuration for React
+- TailwindCSS support
+- Performance optimizations for development and production
 
 ### 🎨 **TailwindCSS Custom Theme**
-- ألوان مخصصة للمنصة
-- خطوط عربية مخصصة
-- متغيرات CSS للألوان والخطوط
+- Custom platform colors
+- Custom Arabic fonts
+- CSS variables for colors and fonts
 
 ### 📏 **ESLint Rules**
-- قواعد محسنة لـ React
-- تحسينات خاصة بـ React Hooks
-- قواعد مخصصة لجودة الكود
+- Enhanced rules for React
+- React Hooks specific improvements
+- Custom rules for code quality
 
-## 🌐 الدعم والمساهمة
+## 🌐 Support and Contribution
 
-### 🛠️ **التطوير المحلي**
-1. تأكد من تثبيت Node.js 18+
-2. استخدم `npm install` لتثبيت التبعيات
-3. شغل `npm run dev` للتطوير
-4. اتبع قواعد ESLint للكود النظيف
+### 🛠️ **Local Development**
+1. Ensure Node.js 18+ is installed
+2. Use `npm install` to install dependencies
+3. Run `npm run dev` for development
+4. Follow ESLint rules for clean code
 
-### 🐛 **الإبلاغ عن المشاكل**
-- استخدم GitHub Issues للإبلاغ عن المشاكل
-- قدم وصفاً مفصلاً للمشكلة
-- أرفق لقطات شاشة إن أمكن
+### 🐛 **Bug Reports**
+- Use GitHub Issues to report problems
+- Provide detailed problem description
+- Attach screenshots if possible
 
-### 💡 **اقتراح التحسينات**
-- اقترح ميزات جديدة عبر GitHub Issues
-- ناقش الأفكار قبل التنفيذ
-- اتبع معايير الكود الموجودة
+### 💡 **Feature Suggestions**
+- Suggest new features via GitHub Issues
+- Discuss ideas before implementation
+- Follow existing code standards
 
-## 📱 معلومات التواصل
+## 📱 Contact Information
 
-- **الأستاذ**: احمد عصام احمد
-- **التخصص**: الرياضيات للثانوية العامة
-- **الهاتف**: +20 123 456 7890
-- **البريد الإلكتروني**: info@ahmedesam.com
-- **الموقع**: القاهرة، مصر
+- **Professor**: Ahmed Esam Ahmed
+- **Specialization**: Mathematics for High School
+- **Phone**: +20 123 456 7890
+- **Email**: info@ahmedesam.com
+- **Location**: Cairo, Egypt
 
-## 📊 إحصائيات المنصة
+## 📊 Platform Statistics
 
-- 👥 **+5000 طالب** مسجل في المنصة
-- 📚 **42 كورس** تعليمي متاح
-- 🎓 **15+ سنة خبرة** في التدريس
-- ✅ **98% معدل نجاح** للطلاب
+- 👥 **5000+ students** registered on the platform
+- 📚 **42 educational courses** available
+- 🎓 **15+ years of experience** in teaching
+- ✅ **98% success rate** for students
 
-## 📄 الترخيص
+## 📄 License
 
-هذا المشروع تم تطويره كمنصة تعليمية متخصصة. جميع الحقوق محفوظة لمنصة الأستاذ احمد عصام © 2025.
+This project was developed as a specialized educational platform. All rights reserved to Ahmed Esam Educational Platform © 2025.
 
 ---
 
-> 💡 **نصيحة**: لأفضل تجربة تطوير، استخدم VS Code مع إضافات React و TailwindCSS و ESLint.
+> 💡 **Tip**: For the best development experience, use VS Code with React, TailwindCSS, and ESLint extensions.
 
-**تم تطويره بـ ❤️ للطلاب العرب**
+**Developed with ❤️ for Arabic students**
